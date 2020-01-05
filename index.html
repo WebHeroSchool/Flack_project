@@ -12,7 +12,7 @@
 	<header class="header">
 		<div class="header__logo">
 			<picture class="header__logo-picture">
-				<img class="header__logo-picture logo" src=".\img\LOCO.png">
+				<img class="header__logo-img" src=".\img\LOCO.png">
 			</picture>
 		<div class="header__lang">
 			RU
@@ -24,43 +24,43 @@
 		</div>
 		</div>
 	</header>
-	<div class="wrap">
+	<section class="wrap">
 		<picture class="wrap__main-img">
 			<img class="wrap__img" src=".\img\mainpic.png">
 		</picture>
-	</div>
-	<div>
-		<h1 class="wrap__heading">
-		Новая коллекция
-		</h1>
-		<p class="wrap__article">
+		<div>
+			<h1 class="wrap__heading">
+			Новая коллекция
+			</h1>
+			<p class="wrap__article">
 			Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.
-		</p>
-		<a class="wrap__button-next" href="#">
-		ЧИТАТЬ ДАЛЬШЕ
-		</a>
-		<a class="wrap__button-more" href="#">
-		ДРУГИЕ ПРЕДЛОЖЕНИЯ
-		<img class="button-more__vector" src=".\img\Vector 2.1.png">
-		</a>
-	</div>
-	<div class="footer__social-networks">
-		<a class="footer_social-button" href="#"><img class="social__item-inst" src=".\img\Instagram.png"></a>
-		<a class="footer_social-button" href="#"><img class="social__item-vk" src=".\img\VK.png"></a>
-		<a class="footer_social-button" href="#"><img class="social__item_fb" src=".\img\FB.png"></a>
-		<div class="footer__scroll">
-			<a class="footer__scroll-link" href="#"><img class="footer__scroll-link-img" src=".\img\scrooll.png"></a>
-			<a class="footer__scroll-vector" href="#"><img class="footer__scroll-vector-img" src=".\img\vector-scroll.png"></a>
+			</p>
+			<button class="wrap__button-next">
+			ЧИТАТЬ ДАЛЬШЕ
+			</button>
+			<a class="wrap__button-more" href="#">
+			ДРУГИЕ ПРЕДЛОЖЕНИЯ
+			<img class="button-more__vector" src=".\img\Vector 2.1.png">
+			</a>
 		</div>
-	</div>
+		<div class="footer__social-networks">
+			<a class="footer__social-button" href="#"><img class="social__item-inst" src=".\img\Instagram.png"></a>
+			<a class="footer__social-button" href="#"><img class="social__item-vk" src=".\img\VK.png"></a>
+			<a class="footer__social-button" href="#"><img class="social__item_fb" src=".\img\FB.png"></a>
+			<div class="footer__scroll">
+				<a class="footer__scroll-link" href="#"><img class="footer__scroll-link-img" src=".\img\scrooll.png"></a>
+				<a class="footer__scroll-vector" href="#"><img class="footer__scroll-vector-img" src=".\img\vector-scroll.png"></a>
+			</div>
+		</div>
+	</section>
 	<!-- Вторая страница -->
-	<div class="second-page">
+	<section class="second-page">
 		<picture class="second-page__img">
 			<img class="second__img_back-purse" src=".\img\purse-white.png"> 
 			<img class="second__img_front-purse" src=".\img\purse-pink.png">
 		</picture>
 	<!-- Блок с товаром -->
-		<div class="second-page__article">
+		<article class="second-page__article">
 			<h2 class="second-page__title">
 			Кожаный клатч
 			</h2>
@@ -71,27 +71,30 @@
 			Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.
 			</p>
 			<div class="second-page__color-options">
-			<a class="eclipse_white" href="#"></a>
-			<a class="eclipse_pink" href="#"></a>
-			<a class="eclipse_blue" href="#"></a>
-			<a class="eclipse_green" href="#"></a>
+				<span class="eclipse-white"></span>
+				<span class="eclipse-pink"></span>
+				<span class="eclipse-blue"></span>
+				<span class="eclipse-green"></span>
 			</div>
 			<div class="second-page__price">
 			1990₽
 			</div>
 			<div class="second-page__quantity">
+				<button class="minus">-</button>
+				<input class="quantity__input" type="text" value="1">
+				<button class="plus">+</button>
 			</div>
-			<a class="second-page__add-to-cart" href="#">
+			<button class="add-to-cart">
 			ДОБАВИТЬ В КОРЗИНУ
-			</a>
-		</div>
-		<a class="second-page__more-items" href="#">
+			</button>
+		</article>
+		<a class="more-items" href="#">
 			ДРУГИЕ ТОВАРЫ НА LOCO.COM
 			<img class="button-more__vector" src=".\img\Vector 2.2.png">
 		</a>
-	</div>
+	</section>
 	<!-- Третья страница -->
-	<div class="third-page">
+	<section class="third-page">
 		<picture class="third-page__img">
 			<img class="third-page__img-clothes" src=".\img\clothes.png">
 		</picture>
@@ -105,17 +108,16 @@
 			<p class="third-page__description">
 			Джинсы, свитер, обувь. В комплект также входит пакет ароматного чая и кружка.
 			</p>
-			</div>
-			<div class="third-page__quantity">
-			</div>
-			<a class="third-page__add-to-cart" href="#">
-			ДОБАВИТЬ В КОРЗИНУ
-			</a>
 		</div>
-		<a class="second-page__more-items" href="#">
+		<div class="third-page__quantity">
+		</div>
+		<button class="add-to-cart">
+		ДОБАВИТЬ В КОРЗИНУ
+		</button>
+		<a class="more-items" href="#">
 			ДРУГИЕ ТОВАРЫ НА LOCO.COM
 			<img class="button-more__vector" src=".\img\Vector 2.3.png">
 		</a>
-	</div>
+	</section>
 	</body>
 	</html>
