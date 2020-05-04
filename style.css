@@ -193,7 +193,7 @@ body {
 		margin-top: 1000px;
 	}
 	.wrap__content {
-		background-image: url(/img/mainpic-mob.png);
+		background-image: url(/Img/mainpic-mob.png);
 		background-repeat: no-repeat;
 		width: 140%;
 		height: 126%;
@@ -244,7 +244,7 @@ body {
 		padding-top: 0;
 	}
 	.header__logo-picture {
-		background-image: url(/img/LOCO-mob.png);
+		background-image: url(/Img/LOCO-mob.png);
 		width: 414px;
 		height: 102px;
 		background-repeat: no-repeat;
