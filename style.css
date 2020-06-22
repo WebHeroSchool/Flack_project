@@ -112,7 +112,7 @@ body {
 }
 
 .wrap__heading {
-  font:700 87px/89px 'Montserrat-Bold', sans-serif;
+  font: 700 87px/89px 'Montserrat-Bold', sans-serif;
   letter-spacing: .4px;
   color: #000;
   padding-left: 3px;
@@ -198,7 +198,8 @@ body {
   transition: .3s ease;
 }
 
- /*Адаптив*/
+/*Адаптив*/
+
 @media (max-width: 1570px) {
   .first-page {
     background: linear-gradient(to right, #000 476px, #fff 476px);
@@ -250,7 +251,7 @@ body {
   .wrap__heading {
     margin-bottom: 21px;
     font-size: 82px;
-    line-height: 85px
+    line-height: 85px;
   }
 
   .wrap__article {
@@ -505,6 +506,7 @@ body {
     height: 77px;
     margin-bottom: 64px;
   }
+
   .header__logo {
     padding: 29px 0 0 44px;
   }
@@ -514,6 +516,7 @@ body {
     letter-spacing: 2px;
     margin-right: 200px;
   }
+
   .header__lang {
     padding-top: 6px;
   }
@@ -722,12 +725,12 @@ body {
   }
 }
 
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
   .first-page {
     background: linear-gradient(to right, #000 318px, #fff 318px);
     min-height: 620px;
   }
-  
+
   .header {
     height: 63px;
     margin-bottom: 54px;
@@ -895,7 +898,7 @@ body {
   .wrap__heading {
     padding: 0 18%;
     font: 700 93px/93px 'Montserrat-Bold', sans-serif;
-    color: #000000;
+    color: #000;
     margin-top: 592px;
     cursor: pointer;
   }
@@ -1188,6 +1191,7 @@ body {
     width: 74px;
     height: 74px;
   }
+
   .header__menu-icon {
     height: 21px;
   }
