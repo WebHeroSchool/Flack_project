@@ -154,6 +154,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   color: #000;
+  border-bottom: 2px solid transparent;
 }
 
 .wrap__button-more:hover {
