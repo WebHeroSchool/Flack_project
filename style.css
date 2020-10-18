@@ -398,7 +398,7 @@ body {
 .third-page__img-clothes {
   width: 109%;
   padding-top: 5px;
-  box-shadow: -2px 32px 37px -20px rgba(0,0,0,0.2);
+  box-shadow: -2px 32px 37px -20px rgba(0, 0, 0, .2);
 }
 
 .third-page__wrap {
@@ -474,7 +474,7 @@ body {
 }
 
 .third__plus:hover {
-  background-color: #EBE3D8;
+  background-color: #ebe3d8;
   border-radius: 20%;
 }
 
@@ -801,7 +801,7 @@ body {
   .third-page__img-clothes {
     width: 100%;
     padding-top: 0;
-  } 
+  }
 
   .third-page__wrap {
     right: 97px;
@@ -1020,7 +1020,6 @@ body {
     font: 600 13px/19px 'Montserrat-Regular', sans-serif;
     margin-bottom: 37px;
   }
-
 
   .second-page__color-options {
     margin-bottom: 43px;
@@ -2033,10 +2032,6 @@ body {
     top: 614px;
   }
 
-  .second__wrap {
-    margin: 0;
-  }
-
   .second-page {
     flex-direction: column;
   }
@@ -2570,7 +2565,7 @@ body {
     letter-spacing: -.2px;
   }
 
-  .third-page__options{
+  .third-page__options {
     margin-right: 12px;
   }
 
