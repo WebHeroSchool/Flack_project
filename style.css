@@ -199,7 +199,7 @@ body {
   transition: .3s ease;
 }
 
-/*Вторая страница*/
+/* Вторая страница */
 
 .second-page {
   background-color: #fae8e4;
@@ -297,8 +297,8 @@ body {
   background-color: #90bd8f;
 }
 
-.eclipse-white:hover, 
-.eclipse-blue:hover, 
+.eclipse-white:hover,
+.eclipse-blue:hover,
 .eclipse-green:hover {
   transform: scale(1.1);
 }
@@ -381,10 +381,10 @@ body {
   width: 48%;
 }
 
-/*Третья странца*/
+/* Третья странца */
 
 .third-page {
-  background: linear-gradient(to right, #EBE3D8 422px, #000 422px, #000 502px, #EBE3D8 502px);
+  background: linear-gradient(to right, #ebe3d8 422px, #000 422px, #000 502px, #ebe3d8 502px);
   min-height: 981px;
   display: flex;
   justify-content: flex-start;
@@ -393,14 +393,13 @@ body {
 
 .third-page__img {
   padding-left: 96px;
-/*  margin-right: 34%;*/
 }
 
 .third-page__img-clothes {
   width: 109%;
   padding-top: 5px;
   box-shadow: -2px 32px 37px -20px rgba(0,0,0,0.2);
-} 
+}
 
 .third-page__wrap {
   position: relative;
@@ -456,7 +455,7 @@ body {
 }
 
 .third__minus:hover {
-  background-color: #EBE3D8;
+  background-color: #ebe3d8;
   border-radius: 20%;
 }
 
@@ -610,11 +609,11 @@ body {
   }
 
   .second-page {
-  min-height: 929px;
+    min-height: 929px;
   }
 
   .third-page {
-  min-height: 929px;
+    min-height: 929px;
   }
 }
 
@@ -752,7 +751,6 @@ body {
     margin-bottom: 38px;
   }
 
-
   .second-page__color-options {
     margin-bottom: 45px;
   }
@@ -792,7 +790,7 @@ body {
   }
 
   .third-page {
-    background: linear-gradient(to right, #EBE3D8 388px, #000 388px, #000 461px, #EBE3D8 461px);
+    background: linear-gradient(to right, #ebe3d8 388px, #000 388px, #000 461px, #ebe3d8 461px);
     min-height: 900px;
   }
 
@@ -1009,12 +1007,12 @@ body {
 
   .second-page__title {
     font-size: 38px;
-    letter-spacing: -0.8px;
+    letter-spacing: -.8px;
   }
 
   .second-page__subtitle {
     font-size: 15px;
-    letter-spacing: 0.9px;
+    letter-spacing: .9px;
     margin-bottom: 59px;
   }
 
@@ -1059,7 +1057,7 @@ body {
   }
 
   .third-page {
-    background: linear-gradient(to right, #EBE3D8 358px, #000 358px, #000 425px, #EBE3D8 425px);
+    background: linear-gradient(to right, #ebe3d8 358px, #000 358px, #000 425px, #ebe3d8 425px);
     min-height: 831px;
   }
 
@@ -1266,7 +1264,7 @@ body {
 
   .second-page__subtitle {
     font-size: 14px;
-    letter-spacing: 0.6px;
+    letter-spacing: .6px;
     margin-bottom: 48px;
   }
 
@@ -1314,7 +1312,7 @@ body {
   }
 
   .third-page {
-    background: linear-gradient(to right, #EBE3D8 323px, #000 323px, #000 384px, #EBE3D8 384px);
+    background: linear-gradient(to right, #ebe3d8 323px, #000 323px, #000 384px, #ebe3d8 384px);
     min-height: 749px;
   }
 
@@ -1566,7 +1564,7 @@ body {
     font-size: 30px;
   }
 
-.second__minus {
+  .second__minus {
     padding: 4px 8px;
   }
 
@@ -1592,8 +1590,8 @@ body {
     padding-left: 3px;
   }
 
-    .third-page {
-    background: linear-gradient(to right, #EBE3D8 296px, #000 296px, #000 352px, #EBE3D8 352px);
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 296px, #000 296px, #000 352px, #ebe3d8 352px);
     min-height: 688px;
   }
 
@@ -1855,7 +1853,7 @@ body {
   }
 
   .third-page {
-    background: linear-gradient(to right, #EBE3D8 267px, #000 267px, #000 318px, #EBE3D8 318px);
+    background: linear-gradient(to right, #ebe3d8 267px, #000 267px, #000 318px, #ebe3d8 318px);
     min-height: 620px;
   }
 
@@ -2035,7 +2033,7 @@ body {
     top: 614px;
   }
 
- .second__wrap {
+  .second__wrap {
     margin: 0;
   }
 
@@ -2107,7 +2105,7 @@ body {
   }
 
   .third-page {
-    background: linear-gradient(to right, #EBE3D8 147px, #000 147px, #000 194px, #EBE3D8 194px);
+    background: linear-gradient(to right, #ebe3d8 147px, #000 147px, #000 194px, #ebe3d8 194px);
     min-height: auto;
     display: block;
   }
@@ -2266,7 +2264,7 @@ body {
     left: 25%;
   }
 
-   .third__more-items {
+  .third__more-items {
     width: 155px;
     margin-left: 55%;
   }
@@ -2372,7 +2370,7 @@ body {
   }
 
   .third-page {
-    background: linear-gradient(to right, #EBE3D8 180px, #000 180px, #000 270px, #EBE3D8 270px);
+    background: linear-gradient(to right, #ebe3d8 180px, #000 180px, #000 270px, #ebe3d8 270px);
   }
 
   .third-page__img {
@@ -2394,16 +2392,16 @@ body {
 
   .third-page__subtitle {
     font-size: 14px;
-    margin-bottom: 18px; 
+    margin-bottom: 18px;
   }
 
   .third-page__description {
     font-size: 13px;
     line-height: 16px;
-    margin-bottom: 33px; 
+    margin-bottom: 33px;
   }
 
-  .third-page__options{
+  .third-page__options {
     margin-right: 14px;
   }
 
@@ -2534,7 +2532,7 @@ body {
   }
 
   .third-page {
-    background: linear-gradient(to right, #EBE3D8 144px, #000 144px, #000 202px, #EBE3D8 202px);
+    background: linear-gradient(to right, #ebe3d8 144px, #000 144px, #000 202px, #ebe3d8 202px);
   }
 
   .third-page__img {
@@ -2562,7 +2560,7 @@ body {
   }
 
   .third-page__subtitle {
-    margin-bottom: 13px; 
+    margin-bottom: 13px;
     letter-spacing: 1px;
   }
 
@@ -2681,7 +2679,7 @@ body {
   }
 
   .third-page {
-    background: linear-gradient(to right, #EBE3D8 131px, #000 131px, #000 183px, #EBE3D8 183px);
+    background: linear-gradient(to right, #ebe3d8 131px, #000 131px, #000 183px, #ebe3d8 183px);
   }
 
   .third-page__wrap {
@@ -2700,7 +2698,7 @@ body {
   }
 
   .third-page__subtitle {
-    margin-bottom: 9px; 
+    margin-bottom: 9px;
     letter-spacing: 0;
   }
 
@@ -2802,7 +2800,7 @@ body {
   }
 
   .third-page {
-    background: linear-gradient(to right, #EBE3D8 120px, #000 120px, #000 168px, #EBE3D8 168px);
+    background: linear-gradient(to right, #ebe3d8 120px, #000 120px, #000 168px, #ebe3d8 168px);
   }
 
   .third-page__wrap {
@@ -2983,7 +2981,7 @@ body {
   }
 
   .third-page {
-    background: linear-gradient(to right, #EBE3D8 104px, #000 104px, #000 145px, #EBE3D8 145px);
+    background: linear-gradient(to right, #ebe3d8 104px, #000 104px, #000 145px, #ebe3d8 145px);
   }
 
   .third-page__article {
@@ -3062,7 +3060,7 @@ body {
   }
 
   .third-page {
-    background: linear-gradient(to right, #EBE3D8 98px, #000 98px, #000 137px, #EBE3D8 137px);
+    background: linear-gradient(to right, #ebe3d8 98px, #000 98px, #000 137px, #ebe3d8 137px);
   }
 
   .third-page__wrap {
@@ -3083,7 +3081,7 @@ body {
   }
 
   .third-page__subtitle {
-    margin-bottom: 8px; 
+    margin-bottom: 8px;
     font-size: 10px;
   }
 
