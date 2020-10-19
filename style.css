@@ -1857,7 +1857,6 @@ body {
   }
 
   .third-page__wrap {
-/* right: 9%; */
     right: 10%;
   }
 
@@ -3150,10 +3149,6 @@ body {
 
   .second-page__img {
     margin-bottom: 3%;
-  }
-
-  .second__wrap {
-    margin-bottom: 0;
   }
 
   .second-page__article {
