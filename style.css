@@ -199,6 +199,321 @@ body {
   transition: .3s ease;
 }
 
+/* Вторая страница */
+
+.second-page {
+  background-color: #fae8e4;
+  min-height: 980px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.second-page__img {
+  margin-right: 135px;
+  flex: 3;
+}
+
+.second__img_purses {
+  width: 90%;
+  padding-left: 147px;
+  padding-top: 115px;
+}
+
+.second__img_front-purse {
+  display: none;
+}
+
+.second__wrap {
+  margin: 55px 64px 0 0;
+  flex: 2;
+}
+
+.second-page__article {
+  width: 400px;
+  background-color: #fff;
+  padding: 42px 72px 47px 60px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 45px;
+  box-shadow: 20px 40px 40px -48px;
+}
+
+.second-page__title {
+  font: 700 45px 'Montserrat-Bold', sans-serif;
+  letter-spacing: -1px;
+  margin-bottom: 11px;
+}
+
+.second-page__subtitle {
+  font: 600 16px 'Montserrat-Bold', sans-serif;
+  letter-spacing: 2.3px;
+  margin-bottom: 67px;
+  opacity: .5;
+}
+
+.second-page__description {
+  font: 600 16px/23px 'Montserrat-Regular', sans-serif;
+  letter-spacing: .1px;
+  margin-bottom: 45px;
+  opacity: .3;
+}
+
+.second__options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.second-page__color-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+.eclipse {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 14px;
+}
+
+.eclipse-white {
+  background-color: #dedede;
+}
+
+.eclipse-pink {
+  transform: scale(1.2);
+  background-color: #f29f9f;
+}
+
+.eclipse-blue {
+  background-color: #a8bff9;
+}
+
+.eclipse-green {
+  background-color: #90bd8f;
+}
+
+.eclipse-white:hover,
+.eclipse-blue:hover,
+.eclipse-green:hover {
+  transform: scale(1.1);
+}
+
+.eclipse-pink:hover {
+  transform: scale(1.4);
+}
+
+.second-page__price {
+  margin-right: 7px;
+  margin-bottom: 53px;
+  font: 700 45px 'Montserrat-Bold', sans-serif;
+}
+
+.second-page__quantity {
+  border: #000 solid 1.5px;
+  padding: 5px;
+}
+
+.second__minus {
+  padding: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.second__minus:hover {
+  background-color: #fae8e4;
+  border-radius: 20%;
+}
+
+.second__quantity__input {
+  text-align: center;
+  padding: 10px;
+  width: 15px;
+}
+
+.second__plus {
+  padding: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.second__plus:hover {
+  background-color: #fae8e4;
+  border-radius: 20%;
+}
+
+.second__add-to-cart {
+  font: 500 14px 'Montserrat-Medium', sans-serif;
+  padding: 11px 44px;
+  border: 1.5px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+  width: 275px;
+}
+
+.second__add-to-cart:hover {
+  box-shadow: 0 0 0 4px #000;
+  text-decoration: underline;
+  transition: .3s ease;
+}
+
+.second__more-items {
+  font: 500 14px 'Montserrat-Medium', sans-serif;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: .1px;
+  border-bottom: 2px solid transparent;
+  padding-left: 5px;
+}
+
+.second__more-items:hover {
+  border-bottom: 2px solid #000;
+  transition: .3s ease;
+}
+
+.second__more-vector {
+  padding-left: 14px;
+  width: 48%;
+}
+
+/* Третья странца */
+
+.third-page {
+  background: linear-gradient(to right, #ebe3d8 422px, #000 422px, #000 502px, #ebe3d8 502px);
+  min-height: 981px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.third-page__img {
+  padding-left: 96px;
+}
+
+.third-page__img-clothes {
+  width: 109%;
+  padding-top: 5px;
+  box-shadow: -2px 32px 37px -20px rgba(0, 0, 0, .2);
+}
+
+.third-page__wrap {
+  position: relative;
+  right: 32px;
+  top: 10px;
+}
+
+.third-page__article {
+  background-color: #fae8e4;
+  width: 408px;
+  padding: 37px 60px 43px 50px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 45px;
+}
+
+.third-page__title {
+  font: 700 45px 'Montserrat-Bold', sans-serif;
+  letter-spacing: -.8px;
+  margin-bottom: 12px;
+}
+
+.third-page__subtitle {
+  font: 600 16px 'Montserrat-Bold', sans-serif;
+  letter-spacing: 2.3px;
+  margin-bottom: 36px;
+  opacity: .5;
+}
+
+.third-page__description {
+  font: 600 16px/23px 'Montserrat-Regular', sans-serif;
+  letter-spacing: .4px;
+  margin-bottom: 60px;
+  opacity: .3;
+}
+
+.third-page__options {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 7px;
+}
+
+.third-page__quantity {
+  border: #000 solid 1.5px;
+  padding: 5px;
+  width: 96px;
+}
+
+.third__minus {
+  padding: 10px;
+  background-color: #fae8e4;
+  cursor: pointer;
+}
+
+.third__minus:hover {
+  background-color: #ebe3d8;
+  border-radius: 20%;
+}
+
+.third__quantity__input {
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 15px;
+  background-color: #fae8e4;
+}
+
+.third__plus {
+  padding: 10px;
+  background-color: #fae8e4;
+  cursor: pointer;
+}
+
+.third__plus:hover {
+  background-color: #ebe3d8;
+  border-radius: 20%;
+}
+
+.third__add-to-cart {
+  font: 500 14px 'Montserrat-Medium', sans-serif;
+  padding: 0 44px;
+  border: 1.5px solid #000;
+  background-color: #fae8e4;
+  cursor: pointer;
+  width: 275px;
+}
+
+.third__add-to-cart:hover {
+  box-shadow: 0 0 0 4px #000;
+  text-decoration: underline;
+  transition: .3s ease;
+}
+
+.third__more-items {
+  font: 500 14px 'Montserrat-Medium', sans-serif;
+  letter-spacing: .1px;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  margin-left: 140px;
+}
+
+.third__more-items:hover {
+  border-bottom: 2px solid #000;
+  transition: .3s ease;
+}
+
+.third__more-vector {
+  width: 23%;
+  height: 9px;
+  padding-left: 3%;
+}
+
 /* Адаптив */
 
 @media (max-width: 1570px) {
@@ -291,6 +606,14 @@ body {
   .footer__scroll {
     width: 29px;
     height: 42px;
+  }
+
+  .second-page {
+    min-height: 929px;
+  }
+
+  .third-page {
+    min-height: 929px;
   }
 }
 
@@ -385,6 +708,169 @@ body {
 
   .footer__social-button {
     width: 55px;
+  }
+
+  .second-page {
+    min-height: 900px;
+  }
+
+  .second-page__img {
+    margin-right: 166px;
+  }
+
+  .second__img_purses {
+    width: 95%;
+    padding: 102px 0 0 138px;
+  }
+
+  .second__wrap {
+    margin: 50px 73px 0 0;
+  }
+
+  .second-page__article {
+    width: 370px;
+    padding: 40px 61px 46px 57px;
+    margin-bottom: 38px;
+  }
+
+  .second-page__title {
+    font-size: 41px;
+    letter-spacing: -1px;
+    margin-bottom: 6px;
+  }
+
+  .second-page__subtitle {
+    font-size: 16px;
+    letter-spacing: 1.8px;
+    margin-bottom: 63px;
+  }
+
+  .second-page__description {
+    font: 600 14px/21px 'Montserrat-Regular', sans-serif;
+    letter-spacing: .5px;
+    margin-bottom: 38px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 45px;
+  }
+
+  .eclipse {
+    width: 30px;
+    height: 30px;
+  }
+
+  .second-page__price {
+    margin-right: 12px;
+    margin-bottom: 57px;
+    font-size: 41px;
+  }
+
+  .second__minus {
+    padding: 7px;
+  }
+
+  .second__quantity__input {
+    padding: 7px;
+    width: 25px;
+  }
+
+  .second__plus {
+    padding: 7px;
+  }
+
+  .second__add-to-cart {
+    font-size: 13px;
+    padding: 4px 41px;
+    width: 253px;
+  }
+
+  .second__more-items {
+    font-size: 13px;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 388px, #000 388px, #000 461px, #ebe3d8 461px);
+    min-height: 900px;
+  }
+
+  .third-page__img {
+    padding-left: 87px;
+  }
+
+  .third-page__img-clothes {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .third-page__wrap {
+    right: 97px;
+    top: 7px;
+  }
+
+  .third-page__article {
+    width: 375px;
+    padding: 34px 49px 45px 49px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 37px;
+  }
+
+  .third-page__title {
+    font: 700 40px 'Montserrat-Bold', sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 9px;
+  }
+
+  .third-page__subtitle {
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+    opacity: .5;
+  }
+
+  .third-page__description {
+    font: 600 15px/21px 'Montserrat-Regular', sans-serif;
+    letter-spacing: .1px;
+    margin-bottom: 57px;
+  }
+
+  .third-page__options {
+    margin-right: 9px;
+  }
+
+  .third-page__quantity {
+    padding: 4px;
+    width: 87px;
+  }
+
+  .third__minus {
+    padding: 8px;
+  }
+
+  .third__quantity__input {
+    font-size: 12px;
+    padding: 9px;
+    width: 12px;
+  }
+
+  .third__plus {
+    padding: 8px;
+  }
+
+  .third__add-to-cart {
+    font: 500 13px 'Montserrat-Medium', sans-serif;
+    padding: 0 43px;
+    width: 254px;
+  }
+
+  .third__more-items {
+    font: 500 13px 'Montserrat-Medium', sans-serif;
+    letter-spacing: .05px;
+    margin-left: 130px;
+  }
+
+  .third__more-vector {
+    width: 20%;
   }
 }
 
@@ -495,6 +981,151 @@ body {
     width: 27px;
     height: 40px;
   }
+
+  .second-page {
+    min-height: 830px;
+  }
+
+  .second-page__img {
+    margin-right: 171px;
+  }
+
+  .second__img_purses {
+    width: 98%;
+    padding: 104px 0 0 125px;
+  }
+
+  .second__wrap {
+    margin: 45px 68px 0 0;
+  }
+
+  .second-page__article {
+    width: 340px;
+    padding: 37px 60px 40px 51px;
+    margin-bottom: 34px;
+  }
+
+  .second-page__title {
+    font-size: 38px;
+    letter-spacing: -.8px;
+  }
+
+  .second-page__subtitle {
+    font-size: 15px;
+    letter-spacing: .9px;
+    margin-bottom: 59px;
+  }
+
+  .second-page__description {
+    font: 600 13px/19px 'Montserrat-Regular', sans-serif;
+    margin-bottom: 37px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 43px;
+  }
+
+  .eclipse {
+    width: 28px;
+    height: 28px;
+  }
+
+  .second-page__price {
+    margin-right: 10px;
+    margin-bottom: 49px;
+    font-size: 37px;
+  }
+
+  .second__quantity__input {
+    width: 18px;
+  }
+
+  .second__add-to-cart {
+    font-size: 12px;
+    padding: 3px 39px;
+    width: 233px;
+  }
+
+  .second__more-items {
+    font-size: 12px;
+  }
+
+  .second__more-vector {
+    padding-left: 8px;
+    width: 50%;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 358px, #000 358px, #000 425px, #ebe3d8 425px);
+    min-height: 831px;
+  }
+
+  .third-page__img {
+    padding-left: 81px;
+  }
+
+  .third-page__img-clothes {
+    width: 763px;
+    padding-top: 4px;
+  }
+
+  .third-page__wrap {
+    right: 8%;
+  }
+
+  .third-page__article {
+    width: auto;
+    padding: 32px 40px 42px 44px;
+    margin-bottom: 31px;
+  }
+
+  .third-page__title {
+    font-size: 35px;
+    margin-bottom: 7px;
+  }
+
+  .third-page__subtitle {
+    margin-bottom: 28px;
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+
+  .third-page__description {
+    font: 600 14px/19px 'Montserrat-Regular', sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 53px;
+    width: 345px;
+  }
+
+  .third-page__options {
+    margin-right: 0;
+  }
+
+  .third-page__quantity {
+    width: 81px;
+  }
+
+  .third__minus {
+    padding: 7px;
+  }
+
+  .third__quantity__input {
+    padding: 8px;
+  }
+
+  .third__plus {
+    padding: 7px;
+  }
+
+  .third__add-to-cart {
+    padding: 0 31px;
+    width: 234px;
+  }
+
+  .third__more-items {
+    font-size: 12px;
+    margin-left: 110px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -602,6 +1233,151 @@ body {
     width: 24px;
     height: 34px;
   }
+
+  .second-page {
+    min-height: 749px;
+  }
+
+  .second-page__img {
+    margin-right: 52px;
+  }
+
+  .second__img_purses {
+    width: 83%;
+    padding: 93px 0 0 114px;
+  }
+
+  .second__wrap {
+    margin: 40px 15px 0 0;
+  }
+
+  .second-page__article {
+    width: 310px;
+    padding: 32px 52px 35px 45px;
+    margin-bottom: 27px;
+  }
+
+  .second-page__title {
+    font-size: 35px;
+  }
+
+  .second-page__subtitle {
+    font-size: 14px;
+    letter-spacing: .6px;
+    margin-bottom: 48px;
+  }
+
+  .second-page__description {
+    font: 600 12px/17px 'Montserrat-Regular', sans-serif;
+    margin-bottom: 36px;
+    letter-spacing: .4px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 32px;
+  }
+
+  .eclipse {
+    width: 26px;
+    height: 26px;
+    margin-right: 12px;
+  }
+
+  .second-page__price {
+    margin-bottom: 42px;
+    font-size: 34px;
+  }
+
+  .second__quantity__input {
+    width: 11px;
+  }
+
+  .second__add-to-cart {
+    font-size: 11px;
+    padding: 2px 17px;
+    width: 211px;
+  }
+
+  .second__more-items {
+    font-size: 11px;
+    letter-spacing: -.1px;
+    padding-left: 4px;
+  }
+
+  .second__more-vector {
+    padding-left: 10px;
+    width: 45%;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 323px, #000 323px, #000 384px, #ebe3d8 384px);
+    min-height: 749px;
+  }
+
+  .third-page__img {
+    padding-left: 73px;
+  }
+
+  .third-page__img-clothes {
+    width: 689px;
+  }
+
+  .third-page__wrap {
+    top: 8px;
+  }
+
+  .third-page__article {
+    width: 344px;
+    padding: 28px 13px 35px 39px;
+    margin-bottom: 28px;
+  }
+
+  .third-page__title {
+    font-size: 34px;
+    letter-spacing: -.4px;
+    margin-bottom: 6px;
+  }
+
+  .third-page__subtitle {
+    margin-bottom: 25px;
+    letter-spacing: 1.2px;
+    font-size: 13px;
+  }
+
+  .third-page__description {
+    font: 600 13px/18px 'Montserrat-Regular', sans-serif;
+    letter-spacing: -.2px;
+    margin-bottom: 47px;
+    width: 306px;
+  }
+
+  .third-page__quantity {
+    width: 73px;
+  }
+
+  .third__minus {
+    padding: 6px;
+  }
+
+  .third__quantity__input {
+    padding: 7px;
+  }
+
+  .third__plus {
+    padding: 6px;
+  }
+
+  .third__add-to-cart {
+    padding: 0 21px;
+    width: 211px;
+    font-size: 11px;
+  }
+
+  .third__more-items {
+    font-size: 11px;
+    margin-left: 109px;
+    letter-spacing: 0;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -677,22 +1453,22 @@ body {
   .wrap__article {
     line-height: 16px;
     width: 350px;
-    letter-spacing: .6px;
+    letter-spacing: .3px;
     margin-bottom: 29px;
     font-size: 11px;
   }
 
   .wrap__button-next {
     height: 33px;
-    padding: 3px 31px;
+    padding: 3px 29px;
     line-height: 23px;
-    font-size: 10px;
-    margin-right: 43px;
+    font-size: 11px;
+    margin-right: 42px;
   }
 
   .wrap__button-more {
     font-size: 10px;
-    letter-spacing: -.5px;
+    letter-spacing: -.1px;
   }
 
   .button-more__vector {
@@ -723,6 +1499,153 @@ body {
   .footer__scroll {
     width: 23px;
     height: 30px;
+  }
+
+  .second-page {
+    min-height: 687px;
+  }
+
+  .second-page__img {
+    margin-right: 54px;
+  }
+
+  .second__img_purses {
+    width: 84%;
+    padding: 83px 0 0 104px;
+  }
+
+  .second__wrap {
+    margin: 40px 18px 0 0;
+  }
+
+  .second-page__article {
+    width: 289px;
+    padding: 26px 42px 34px;
+  }
+
+  .second-page__title {
+    font-size: 31px;
+    letter-spacing: -.3px;
+    margin-bottom: 5px;
+  }
+
+  .second-page__subtitle {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 47px;
+  }
+
+  .second-page__description {
+    font: 600 12px/16px 'Montserrat-Regular', sans-serif;
+    margin-bottom: 30px;
+    letter-spacing: -.3px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 38px;
+  }
+
+  .eclipse {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+
+  .second-page__price {
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+
+  .second__minus {
+    padding: 4px 8px;
+  }
+
+  .second__quantity__input {
+    width: 6px;
+    font-size: 12px;
+    padding: 3px;
+  }
+
+  .second__plus {
+    padding: 4px 10px;
+  }
+
+  .second__add-to-cart {
+    font-size: 10px;
+    padding: 2px 16px;
+    width: 195px;
+  }
+
+  .second__more-items {
+    font-size: 10px;
+    letter-spacing: 0;
+    padding-left: 3px;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 296px, #000 296px, #000 352px, #ebe3d8 352px);
+    min-height: 688px;
+  }
+
+  .third-page__img {
+    padding-left: 67px;
+  }
+
+  .third-page__img-clothes {
+    width: 632px;
+  }
+
+  .third-page__wrap {
+    top: 6px;
+  }
+
+  .third-page__article {
+    width: 279px;
+    padding: 28px 35px 34px;
+    margin-bottom: 24px;
+  }
+
+  .third-page__title {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .third-page__subtitle {
+    margin-bottom: 26px;
+    font-size: 12px;
+  }
+
+  .third-page__description {
+    font: 600 12px/15px 'Montserrat-Regular', sans-serif;
+    width: 276px;
+  }
+
+  .third-page__quantity {
+    width: 65px;
+  }
+
+  .third__minus {
+    padding: 3px 7px;
+  }
+
+  .third__quantity__input {
+    width: 6px;
+    font-size: 12px;
+    padding: 3px;
+  }
+
+  .third__plus {
+    padding: 3px 7px;
+  }
+
+  .third__add-to-cart {
+    width: 192px;
+    font-size: 10px;
+  }
+
+  .third__more-items {
+    font-size: 10px;
+    margin-left: 95px;
   }
 }
 
@@ -790,7 +1713,7 @@ body {
   }
 
   .wrap__heading {
-    font-size: 55px;
+    font-size: 53px;
     line-height: 57px;
     margin-bottom: 13px;
   }
@@ -834,6 +1757,163 @@ body {
     width: 21px;
     height: 26px;
   }
+
+  .second-page {
+    min-height: 620px;
+  }
+
+  .second-page__img {
+    margin-right: 69px;
+  }
+
+  .second__img_purses {
+    width: 87%;
+    padding: 76px 0 0 94px;
+  }
+
+  .second__wrap {
+    margin: 36px 28px 0 0;
+  }
+
+  .second-page__article {
+    width: 255px;
+    padding: 28px 44px 30px 37px;
+    margin-bottom: 22px;
+  }
+
+  .second-page__title {
+    font-size: 28px;
+  }
+
+  .second-page__subtitle {
+    font-size: 11px;
+    letter-spacing: .7px;
+    margin-bottom: 40px;
+  }
+
+  .second-page__description {
+    font: 600 11px/15px 'Montserrat-Regular', sans-serif;
+    margin-bottom: 24px;
+    letter-spacing: -.4px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 29px;
+  }
+
+  .eclipse {
+    width: 22px;
+    height: 22px;
+    margin-right: 9px;
+  }
+
+  .second-page__price {
+    margin-bottom: 38px;
+    font-size: 28px;
+    margin-right: 7px;
+  }
+
+  .second-page__quantity {
+    padding: 4px;
+  }
+
+  .second__minus {
+    padding: 2px 7px;
+  }
+
+  .second__quantity__input {
+    width: 5px;
+    padding: 2px;
+  }
+
+  .second__plus {
+    padding: 2px 7px;
+  }
+
+  .second__add-to-cart {
+    font-size: 9px;
+    width: 175px;
+  }
+
+  .second__more-items {
+    font-size: 9px;
+  }
+
+  .second__more-vector {
+    width: 46%;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 267px, #000 267px, #000 318px, #ebe3d8 318px);
+    min-height: 620px;
+  }
+
+  .third-page__img {
+    padding-left: 61px;
+  }
+
+  .third-page__img-clothes {
+    width: 569px;
+  }
+
+  .third-page__wrap {
+    right: 10%;
+  }
+
+  .third-page__article {
+    width: 260px;
+    padding: 23px 26px 32px;
+    margin-bottom: 20px;
+  }
+
+  .third-page__title {
+    font-size: 26px;
+    letter-spacing: -.8px;
+  }
+
+  .third-page__subtitle {
+    margin-bottom: 21px;
+    font-size: 11px;
+    letter-spacing: .8px;
+  }
+
+  .third-page__description {
+    font: 600 11px/15px 'Montserrat-Regular', sans-serif;
+    width: 255px;
+    letter-spacing: -.3px;
+    margin-bottom: 37px;
+  }
+
+  .third-page__quantity {
+    width: 58px;
+    padding: 3px;
+  }
+
+  .third__minus {
+    padding: 3px 6px;
+  }
+
+  .third__quantity__input {
+    font-size: 11px;
+  }
+
+  .third__plus {
+    padding: 3px 6px;
+  }
+
+  .third__add-to-cart {
+    width: 174px;
+    font-size: 9px;
+  }
+
+  .third__more-items {
+    font-size: 9px;
+    margin-left: 77px;
+  }
+
+  .third__more-vector {
+    padding-left: 2%;
+  }
 }
 
 @media (max-width: 880px) {
@@ -844,7 +1924,8 @@ body {
   .wrap__button-more,
   .button-more__vector,
   .header__lang,
-  .footer__social-networks {
+  .footer__social-networks,
+  .second__more-items {
     display: none;
   }
 
@@ -884,6 +1965,10 @@ body {
     width: 61px;
     height: 7px;
     margin: 10px 50px;
+  }
+
+  .wrap {
+    margin-bottom: 0;
   }
 
   .wrap__content {
@@ -928,8 +2013,154 @@ body {
     top: 614px;
   }
 
+  .second-page {
+    flex-direction: column;
+  }
+
+  .second-page__img {
+    margin-right: 0;
+    margin-bottom: 4%;
+  }
+
+  .second__img_purses {
+    width: 67%;
+    padding: 12% 0 0 17%;
+  }
+
+  .second__wrap {
+    margin: 0 0 80px 0;
+  }
+
+  .second-page__article {
+    width: 355px;
+    margin-bottom: 0;
+  }
+
+  .second-page__title {
+    font-size: 30px;
+  }
+
+  .second-page__subtitle {
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+
+  .second-page__description {
+    font: 600 12px/16px 'Montserrat-Regular', sans-serif;
+    margin-bottom: 24px;
+    letter-spacing: -.4px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 30px;
+  }
+
+  .eclipse {
+    width: 25px;
+    height: 25px;
+    margin-right: 9px;
+  }
+
+  .second-page__price {
+    margin-bottom: 30px;
+    font-size: 30px;
+    margin-right: 46px;
+  }
+
+  .second__quantity__input {
+    font-size: 15px;
+    padding: 7px 0;
+    width: 20px;
+  }
+
+  .second__add-to-cart {
+    font-size: 14px;
+    width: 245px;
+    padding: 10px 16px;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 147px, #000 147px, #000 194px, #ebe3d8 194px);
+    min-height: auto;
+    display: block;
+  }
+
+  .third-page__img {
+    padding-left: 45px;
+  }
+
   .third-page__img-clothes {
-    width: 50%;
+    display: inline-block;
+    width: 89%;
+    padding: 5% 0 0 0;
+  }
+
+  .third-page__wrap {
+    width: 55%;
+    position: relative;
+    display: inline-block;
+    left: 225px;
+    top: auto;
+    bottom: 60px;
+    margin-bottom: 45px;
+  }
+
+  .third-page__article {
+    width: 365px;
+    margin-bottom: 10px;
+  }
+
+  .third-page__title {
+    font-size: 38px;
+  }
+
+  .third-page__subtitle {
+    font-size: 15px;
+  }
+
+  .third-page__description {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .third-page__quantity {
+    width: 80px;
+  }
+
+  .third__minus {
+    padding: 10px 6px;
+  }
+
+  .third__quantity__input {
+    font-size: 14px;
+    padding: 10px 6px;
+    width: 20px;
+  }
+
+  .third__plus {
+    padding: 10px 6px;
+  }
+
+  .third__add-to-cart {
+    width: 220px;
+    font-size: 13px;
+  }
+
+  .third__more-items {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 35px;
+    font-size: 15px;
+    margin-left: 155px;
+    width: 380px;
+  }
+
+  .third__more-vector {
+    width: 100px;
+    margin: 11px 0 0 0;
   }
 }
 
@@ -944,6 +2175,10 @@ body {
     margin-top: 0;
     width: 50px;
     height: 50px;
+  }
+
+  .third__more-items {
+    margin-left: 75px;
   }
 }
 
@@ -995,6 +2230,19 @@ body {
     height: 40px;
     border-right: 9px solid #000;
     border-top: 9px solid #000;
+  }
+
+  .third-page__title {
+    font-size: 30px;
+  }
+
+  .third-page__wrap {
+    left: 25%;
+  }
+
+  .third__more-items {
+    width: 155px;
+    margin-left: 55%;
   }
 }
 
@@ -1053,12 +2301,99 @@ body {
     top: 614px;
   }
 
-  .second__img_back-purse {
+  .second-page__quantity,
+  .third-page__quantity {
     display: none;
+  }
+
+  .second__img_purses {
+    width: 63%;
   }
 
   .second__img_front-purse {
     width: 50%;
+  }
+
+  .second-page__article {
+    width: 300px;
+  }
+
+  .second-page__title {
+    font-size: 28px;
+  }
+
+  .second-page__subtitle {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+
+  .second-page__description {
+    margin-bottom: 22px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 28px;
+  }
+
+  .second-page__price {
+    margin-bottom: 28px;
+    font-size: 29px;
+    margin-right: 20px;
+  }
+
+  .second__add-to-cart {
+    width: 100%;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 180px, #000 180px, #000 270px, #ebe3d8 270px);
+  }
+
+  .third-page__img {
+    padding: 0 5%;
+  }
+
+  .third-page__wrap {
+    width: 55%;
+    left: 18%;
+  }
+
+  .third-page__article {
+    width: 115%;
+  }
+
+  .third-page__title {
+    font-size: 28px;
+  }
+
+  .third-page__subtitle {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+
+  .third-page__description {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 33px;
+  }
+
+  .third-page__options {
+    margin-right: 14px;
+  }
+
+  .third__add-to-cart {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+
+  .third__more-items {
+    margin-left: 65%;
+    width: 138px;
+  }
+
+  .third__more-vector {
+    width: 100%;
   }
 }
 
@@ -1118,9 +2453,114 @@ body {
     margin-top: 19px;
   }
 
-  .second-page,
+  .second__img_purses {
+    display: none;
+  }
+
+  .second__img_front-purse {
+    display: flex;
+    width: 60%;
+    padding: 12% 0 0 20%;
+    margin-bottom: 22px;
+  }
+
+  .second__wrap {
+    margin: 0;
+  }
+
+  .second-page__article {
+    width: 370px;
+    padding: 22px 40px 35px 43px;
+    margin-bottom: 16%;
+  }
+
+  .second-page__title {
+    letter-spacing: .1px;
+  }
+
+  .second-page__subtitle {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+
+  .second-page__description {
+    margin-bottom: 28px;
+    font: 600 14px/17px 'Montserrat-Regular', sans-serif;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 48px;
+  }
+
+  .eclipse {
+    width: 35px;
+    height: 35px;
+    margin-right: 16px;
+  }
+
+  .second-page__price {
+    margin-right: 10px;
+  }
+
+  .second__add-to-cart {
+    font-size: 18px;
+    padding: 14px;
+  }
+
   .third-page {
-    font-size: 9px;
+    background: linear-gradient(to right, #ebe3d8 144px, #000 144px, #000 202px, #ebe3d8 202px);
+  }
+
+  .third-page__img {
+    padding: 0 3%;
+  }
+
+  .third-page__img-clothes {
+    padding: 9% 0 0 0;
+    width: 94%;
+  }
+
+  .third-page__wrap {
+    width: 62%;
+    left: 12%;
+    bottom: 37px;
+  }
+
+  .third-page__article {
+    padding: 31px 15px 39px 34px;
+  }
+
+  .third-page__title {
+    font-size: 28px;
+    letter-spacing: .1px;
+  }
+
+  .third-page__subtitle {
+    margin-bottom: 13px;
+    letter-spacing: 1px;
+  }
+
+  .third-page__description {
+    line-height: 17px;
+    margin-bottom: 32px;
+    letter-spacing: -.2px;
+  }
+
+  .third-page__options {
+    margin-right: 12px;
+  }
+
+  .third__add-to-cart {
+    font-size: 19px;
+    padding: 13px 16px;
+    letter-spacing: -.4px;
+  }
+
+  .third__more-items {
+    margin-left: 62%;
+    width: 193px;
+    font-size: 21px;
+    top: 43px;
   }
 }
 
@@ -1168,29 +2608,121 @@ body {
     height: 24px;
     margin-top: 16px;
   }
+
+  .second-page__article {
+    width: 332px;
+    padding: 18px 36px 30px 41px;
+    margin-bottom: 16%;
+  }
+
+  .second-page__title {
+    margin-bottom: 2px;
+    font-size: 26px;
+    letter-spacing: -.5px;
+  }
+
+  .second-page__subtitle {
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+
+  .second-page__description {
+    width: 315px;
+    margin-bottom: 26px;
+    font: 600 12px/16px 'Montserrat-Regular', sans-serif;
+    letter-spacing: -.3px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 45px;
+  }
+
+  .eclipse {
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+  }
+
+  .second-page__price {
+    margin-right: 9px;
+    margin-bottom: 43px;
+    font-size: 26px;
+  }
+
+  .second__add-to-cart {
+    font-size: 17px;
+    padding: 12px;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 131px, #000 131px, #000 183px, #ebe3d8 183px);
+  }
+
+  .third-page__wrap {
+    width: 58%;
+  }
+
+  .third-page__article {
+    padding: 29px 25px 35px 30px;
+    margin-bottom: 5px;
+    width: 120%;
+  }
+
+  .third-page__title {
+    font-size: 26px;
+    letter-spacing: -.2px;
+  }
+
+  .third-page__subtitle {
+    margin-bottom: 9px;
+    letter-spacing: 0;
+  }
+
+  .third-page__description {
+    width: 288px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 28px;
+    letter-spacing: -.3px;
+  }
+
+  .third-page__options {
+    margin-right: 0;
+  }
+
+  .third__add-to-cart {
+    font-size: 17px;
+    padding: 12px 16px;
+  }
+
+  .third__more-items {
+    margin-left: 66%;
+    width: 174px;
+    font-size: 19px;
+  }
 }
 
 @media (max-width: 440px) {
   .first-page {
-    min-height: 685px;
+    min-height: 700px;
   }
 
   .header {
-    height: 75px;
+    height: 82px;
   }
 
   .header__logo {
-    padding: 15px 0 0 29px;
+    padding: 17px 0 0 32px;
   }
 
   .header__logo-loco {
-    font-size: 33px;
+    font-size: 35px;
     letter-spacing: 2.4px;
   }
 
   .header__menu {
-    width: 74px;
-    height: 74px;
+    width: 82px;
+    height: 82px;
   }
 
   .header__menu-icon {
@@ -1200,41 +2732,478 @@ body {
   .header__menu-line {
     width: 29px;
     height: 3px;
-    margin: 5px 22px;
+    margin: 5px 26px;
   }
 
   .wrap__heading {
-    padding: 0 0 0 28px;
-    font-size: 54px;
-    line-height: 57px;
+    padding: 0 0 12px 28px;
+    font-size: 59px;
+    line-height: 60px;
     letter-spacing: .3px;
-    margin-top: 396px;
+    margin-top: 426px;
   }
 
   .wrap__heading::after {
-    margin-left: 43%;
-    margin-top: 11px;
+    margin-left: 44%;
+    margin-top: 16px;
     width: 22px;
     height: 22px;
     border-right: 4px solid #000;
     border-top: 4px solid #000;
   }
+
+  .second-page__article {
+    width: 303px;
+    padding: 14px 36px 30px;
+  }
+
+  .second-page__title {
+    font-size: 24px;
+  }
+
+  .second-page__subtitle {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .second-page__description {
+    width: 300px;
+    font: 600 11px/15px 'Montserrat-Regular', sans-serif;
+    letter-spacing: -.2px;
+    margin-bottom: 20px;
+  }
+
+  .eclipse {
+    width: 28px;
+    height: 28px;
+    margin-right: 14px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 43px;
+  }
+
+  .second-page__price {
+    margin-right: 5px;
+    margin-bottom: auto;
+    font-size: 24px;
+  }
+
+  .second__add-to-cart {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 120px, #000 120px, #000 168px, #ebe3d8 168px);
+  }
+
+  .third-page__wrap {
+    width: 55%;
+    bottom: 33px;
+  }
+
+  .third-page__article {
+    padding: 24px 25px 35px;
+    margin-bottom: 2px;
+    width: 126%;
+  }
+
+  .third-page__title {
+    font-size: 24px;
+  }
+
+  .third-page__subtitle {
+    font-size: 13px;
+  }
+
+  .third-page__description {
+    width: 265px;
+    font-size: 11px;
+    line-height: 14px;
+    margin-bottom: 27px;
+  }
+
+  .third__add-to-cart {
+    font-size: 15px;
+    padding: 10px 16px;
+  }
+
+  .third__more-items {
+    width: 163px;
+    font-size: 18px;
+    margin-left: 69%;
+    letter-spacing: -.2px;
+  }
+
+  .third__more-vector {
+    margin-top: 8px;
+  }
 }
 
 @media (max-width: 400px) {
   .first-page {
-    min-height: 636px;
+    min-height: 618px;
+  }
+
+  .header {
+    height: 74px;
+  }
+
+  .header__logo {
+    padding: 16px 0 0 28px;
+  }
+
+  .header__logo-loco {
+    font-size: 32px;
+  }
+
+  .header__menu {
+    width: 75px;
+    height: 74px;
+  }
+
+  .header__menu-line {
+    width: 28px;
+    margin: 5px 22px;
   }
 
   .wrap__heading {
     letter-spacing: -.5px;
-    margin-top: 384px;
+    margin-top: 386px;
+    font-size: 54px;
+    line-height: 55px;
+    padding: 0 0 15px 28px;
+  }
+
+  .wrap__heading::after {
+    margin-left: 43%;
+    margin-top: 12px;
+    width: 21px;
+    height: 21px;
+  }
+
+  .second-page__img {
+    margin-bottom: 2%;
+  }
+
+  .second-page__article {
+    width: 276px;
+    padding: 17px 32px 28px;
+  }
+
+  .second-page__title {
+    font-size: 22px;
+    margin-bottom: 1px;
+  }
+
+  .second-page__subtitle {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  .second-page__description {
+    width: 265px;
+    margin-bottom: 20px;
+    font: 600 10px/14px 'Montserrat-Regular', sans-serif;
+  }
+
+  .eclipse {
+    width: 25px;
+    height: 25px;
+    margin-right: 13px;
+  }
+
+  .second-page__price {
+    margin-bottom: auto;
+    font-size: 22px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 35px;
+  }
+
+  .second__add-to-cart {
+    font-size: 14px;
+    padding: 9px;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 109px, #000 109px, #000 153px, #ebe3d8 153px);
+  }
+
+  .third-page__wrap {
+    width: 60%;
+    left: 12%;
+    bottom: 28px;
+    margin-bottom: 46px;
+  }
+
+  .third-page__img-clothes {
+    width: 93%;
+  }
+
+  .third-page__article {
+    padding: 22px 25px 28px;
+    width: 115%;
+  }
+
+  .third-page__title {
+    font-size: 22px;
+    margin-bottom: 3px;
+  }
+
+  .third-page__subtitle {
+    font-size: 11px;
+    letter-spacing: .5px;
+  }
+
+  .third-page__description {
+    width: 240px;
+    font-size: 10px;
+    line-height: 13px;
+    margin-bottom: 21px;
+  }
+
+  .third__add-to-cart {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .third__more-items {
+    margin-left: 64%;
+    width: 144px;
+    font-size: 16px;
+    top: 40px;
+  }
+
+  .third__more-vector {
+    height: 10px;
   }
 }
 
 @media (max-width: 384px) {
+  .first-page {
+    min-height: 610px;
+  }
+
   .wrap__heading {
+    font-size: 51px;
+    margin-top: 368px;
+    letter-spacing: -.2px;
+    padding: 0 0 0 28px;
+  }
+
+  .wrap__heading::after {
+    margin-top: 10px;
+  }
+
+  .header {
+    height: 72px;
+  }
+
+  .header__logo {
+    padding: 14px 0 0 26px;
+  }
+
+  .header__menu {
+    width: 72px;
+    height: 72px;
+  }
+
+  .second-page {
+    min-height: 608px;
+  }
+
+  .second__img_front-purse {
+    margin-bottom: 18px;
+  }
+
+  .second-page__article {
+    width: 265px;
+    padding: 16px 31px 26px 29px;
+    margin-bottom: 15%;
+  }
+
+  .second-page__title {
+    margin-bottom: 1px;
+    font-size: 21px;
+  }
+
+  .second-page__subtitle {
+    font-size: 10px;
+    margin-bottom: 12px;
+    letter-spacing: 1.1px;
+  }
+
+  .second-page__description {
+    width: 250px;
+    margin-bottom: 20px;
+    font: 600 9px/13px 'Montserrat-Regular', sans-serif;
+    letter-spacing: -.2px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 35px;
+  }
+
+  .eclipse {
+    width: 23px;
+    height: 23px;
+    margin-right: 14px;
+  }
+
+  .second-page__price {
+    margin-right: 7px;
+    font-size: 20px;
+  }
+
+  .second__add-to-cart {
+    font-size: 13px;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 105px, #000 105px, #000 147px, #ebe3d8 147px);
+  }
+
+  .third-page__wrap {
+    margin-bottom: 43px;
+  }
+
+  .third-page__article {
+    width: 114%;
+    margin-bottom: 0;
+  }
+
+  .third-page__title {
+    font-size: 21px;
+  }
+
+  .third-page__subtitle {
+    font-size: 11px;
+    letter-spacing: 0;
+  }
+
+  .third__add-to-cart {
+    padding: 9px;
+  }
+
+  .third__more-items {
+    margin-left: 63%;
+    letter-spacing: -.4px;
+  }
+
+  .third__more-vector {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 375px) {
+  .first-page {
+    min-height: 600px;
+  }
+
+  .wrap__heading {
+    margin-top: 362px;
     font-size: 50px;
+    padding: 0 0 0 26px;
+    line-height: 54px;
+    letter-spacing: .1px;
+  }
+
+  .wrap__heading::after {
+    margin-left: 43%;
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    border-right: 3px solid #000;
+    border-top: 3px solid #000;
+  }
+
+  .header {
+    height: 70px;
+  }
+
+  .header__logo {
+    padding: 15px 0 0 26px;
+  }
+
+  .header__logo-loco {
+    font-size: 30px;
+  }
+
+  .header__menu {
+    height: 71px;
+    width: 71px;
+  }
+
+  .header__menu-line {
+    margin: 5px 21px;
+  }
+
+  .second-page {
+    min-height: 595px;
+  }
+
+  .second__img_front-purse {
+    margin-bottom: 14px;
+  }
+
+  .second-page__article {
+    width: 260px;
+    padding: 15px 30px 24px;
+    margin-bottom: 15%;
+  }
+
+  .second-page__description {
+    margin-bottom: 21px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 31px;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 102px, #000 102px, #000 143px, #ebe3d8 143px);
+  }
+
+  .third-page__wrap {
+    margin-bottom: 42px;
+    bottom: 28px;
+  }
+
+  .third-page__article {
+    padding: 22px 23px 28px;
+  }
+
+  .third-page__title {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  .third-page__subtitle {
+    margin-bottom: 7px;
+  }
+
+  .third-page__description {
+    width: 225px;
+    margin-bottom: 21px;
+    letter-spacing: -.6px;
+  }
+
+  .third__add-to-cart {
+    padding: 8px;
+  }
+
+  .third__more-items {
+    margin-left: 64%;
+    font-size: 15px;
+    top: 36px;
+    width: 138px;
+  }
+
+  .third__more-vector {
+    margin-top: 5px;
   }
 }
 
@@ -1282,5 +3251,111 @@ body {
     margin-top: 10px;
     width: 20px;
     height: 20px;
+  }
+
+  .second-page {
+    min-height: 573px;
+  }
+
+  .second-page__img {
+    margin-bottom: 3%;
+  }
+
+  .second-page__article {
+    width: 250px;
+    padding: 17px 29px 26px;
+    margin-bottom: 11%;
+  }
+
+  .second-page__title {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .second-page__subtitle {
+    margin-bottom: 10px;
+    font-size: 9px;
+  }
+
+  .second-page__description {
+    margin-bottom: 20px;
+    line-height: 12px;
+  }
+
+  .second__wrap {
+    margin-bottom: 12px;
+  }
+
+  .second-page__color-options {
+    margin-bottom: 32px;
+  }
+
+  .second-page__price {
+    margin-right: 4px;
+    font-size: 21px;
+  }
+
+  .second__add-to-cart {
+    padding: 8px;
+  }
+
+  .eclipse {
+    margin-right: 12px;
+  }
+
+  .third-page {
+    background: linear-gradient(to right, #ebe3d8 98px, #000 98px, #000 137px, #ebe3d8 137px);
+  }
+
+  .third-page__wrap {
+    width: 53%;
+    bottom: 26px;
+    margin-bottom: 39px;
+  }
+
+  .third-page__article {
+    padding: 22px 8px 26px 22px;
+    margin-bottom: 0;
+    width: 137%;
+  }
+
+  .third-page__title {
+    font-size: 19px;
+    margin-bottom: 2px;
+  }
+
+  .third-page__subtitle {
+    margin-bottom: 8px;
+    font-size: 11px;
+    letter-spacing: -.4px;
+  }
+
+  .third-page__description {
+    width: 245px;
+    line-height: 11px;
+    margin-bottom: 23px;
+    letter-spacing: -.9px;
+  }
+
+  .third-page__options {
+    margin-right: 12px;
+  }
+
+  .third__add-to-cart {
+    font-size: 12px;
+    padding: 9px 16px;
+    letter-spacing: .3px;
+  }
+
+  .third__more-items {
+    margin-left: 72%;
+    width: 132px;
+    font-size: 15px;
+    top: 36px;
+  }
+
+  .third__more-vector {
+    height: 11px;
+    margin-top: 0;
   }
 }
